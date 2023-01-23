@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: ee5b7993594d30743b72212e8d4e84bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - desertAmbience: {fileID: 8300000, guid: 2e4da387ad746db47a178d60603f68e9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
