@@ -46,4 +46,14 @@ public class SceneManager : MonoBehaviour
         ChangeSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void ReloadScene()
+    {
+        ChangeScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ReloadSceneAsync()
+    {
+        ChangeSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+    }
+
 }

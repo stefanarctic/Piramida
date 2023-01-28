@@ -23,7 +23,8 @@ public class MenuNavigator : MonoBehaviour
     {
         None,
         TitleMenu,
-        SettingsMenu
+        SettingsMenu,
+        PauseMenu
     }
 
     private MenuType _currentMenu = MenuType.None;

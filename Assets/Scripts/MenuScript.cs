@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Rendering.PostProcessing;
 
 public class MenuScript : MonoBehaviour
 {
 
     public GameObject titleMenu;
     public GameObject settingsMenu;
+    public GameObject pauseSettings;
+    public GameObject pauseMenu;
     //public GameObject loadingScreen;
 
     public PlayerMovement playerMovement;
@@ -18,6 +22,18 @@ public class MenuScript : MonoBehaviour
 
     public Transform position1;
     public Transform position2;
+
+    public Slider volumeSlider;
+    public Slider pauseVolumeSlider;
+
+    private bool isPlaying = false;
+    public bool isPauseMenuOpen = false;
+    public bool isSettingsMenuOpen = false;
+
+    public PostProcessLayer postProcessLayer;
+    public PostProcessVolume postProcessVolume;
+
+    private float audioSourceVolume;
 
     private static MenuScript Instance = null;
     public static MenuScript instance
@@ -34,10 +50,73 @@ public class MenuScript : MonoBehaviour
     {
         ShowMenu();
         ActivateMusic();
+        audioSourceVolume = audioSource.volume;
+        volumeSlider.value = audioSourceVolume;
+        pauseVolumeSlider.value = audioSourceVolume;
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen))
+        {
+            if (isPauseMenuOpen)
+                HidePauseMenu();
+            else
+                ShowPauseMenu();
+        }
+    }
+
+    public void MuteVolume()
+    {
+        audioSourceVolume = audioSource.volume;
+        audioSource.volume = 0f;
+    }
+
+    public void UnMuteVolume()
+    {
+        audioSource.volume = audioSourceVolume;
+    }
+
+    public void PauseMusic()
+    {
+        audioSource.Pause();
+    }
+
+    public void PlayMusic()
+    {
+        audioSource.Play();
+    }
+
+    public void OnSliderValueChanged(float newValue)
+    {
+        audioSource.volume = newValue;
+    }
+
+    public void ShowPauseMenu()
+    {
+        //PauseMusic();
+        isPauseMenuOpen = true;
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.PauseMenu;
+        Cursor.lockState = CursorLockMode.None;
+        playerMovement.enabled = false;
+        mouseLook.enabled = false;
+        pauseMenu.SetActive(true);
+    }
+
+    public void HidePauseMenu()
+    {
+        //PlayMusic();
+        isPauseMenuOpen = false;
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.None;
+        Cursor.lockState = CursorLockMode.Locked;
+        playerMovement.enabled = true;
+        mouseLook.enabled = true;
+        pauseMenu.SetActive(false);
     }
 
     public void OnPlay()
     {
+        isPlaying = true;
         HideMenu();
         ActivateAmbience();
         //GameObject playerGameObject = FindObjectOfType<PlayerMovement>().gameObject;
@@ -53,8 +132,27 @@ public class MenuScript : MonoBehaviour
 
     public void OnCloseSettings()
     {
+        isSettingsMenuOpen = false;
+        if (isPauseMenuOpen)
+        {
+            ShowPauseMenu();
+            HideSettingsMenu();
+            return;
+        }
         HideSettingsMenu();
         ShowMenu();
+    }
+
+    public void OnOpenSettingsFromPauseMenu()
+    {
+        HidePauseMenu();
+        OpenSettingsMenu();
+    }
+
+    public void OnCloseSettingsFromPauseMenu()
+    {
+        HideSettingsMenu();
+        ShowPauseMenu();
     }
 
     public void ActivateMusic()
@@ -93,6 +191,7 @@ public class MenuScript : MonoBehaviour
 
     public void OpenSettingsMenu()
     {
+        isSettingsMenuOpen = true;
         MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.SettingsMenu;
         Cursor.lockState = CursorLockMode.None;
         playerMovement.enabled = false;
@@ -102,11 +201,89 @@ public class MenuScript : MonoBehaviour
 
     public void HideSettingsMenu()
     {
+        isSettingsMenuOpen = false;
         MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.None;
         Cursor.lockState = CursorLockMode.Locked;
         playerMovement.enabled = true;
         mouseLook.enabled = true;
         settingsMenu.SetActive(false);
+    }
+
+    public void OnOpenPauseSettings()
+    {
+        HidePauseMenu();
+        OpenPauseSettings();
+    }
+
+    public void OnClosePauseSettings()
+    {
+        HidePauseSettings();
+        ShowPauseMenu();
+    }
+
+    public void OpenPauseSettings()
+    {
+        //PauseMusic();
+        isSettingsMenuOpen = true;
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.SettingsMenu;
+        Cursor.lockState = CursorLockMode.None;
+        playerMovement.enabled = false;
+        mouseLook.enabled = false;
+        pauseSettings.SetActive(true);
+    }
+
+    public void HidePauseSettings()
+    {
+        //PlayMusic();
+        isSettingsMenuOpen = false;
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.None;
+        Cursor.lockState = CursorLockMode.Locked;
+        playerMovement.enabled = true;
+        mouseLook.enabled = true;
+        pauseSettings.SetActive(false);
+    }
+
+    public void GoToMenuFromSettings()
+    {
+        SceneManager.instance.ReloadScene();
+    }
+
+    public void PostProcessingSetActive(bool b)
+    {
+        postProcessLayer.enabled = b;
+    }
+
+    public void AntiAliasingSetActive(bool b)
+    {
+        if (b)
+            postProcessLayer.antialiasingMode = PostProcessLayer.Antialiasing.TemporalAntialiasing;
+        else
+            postProcessLayer.antialiasingMode = PostProcessLayer.Antialiasing.None;
+    }
+
+    public void AmbientOcclusionSetActive(bool b)
+    {
+        postProcessVolume.profile.GetSetting<AmbientOcclusion>().active = b;
+    }
+
+    public void BloomSetActive(bool b)
+    {
+        postProcessVolume.profile.GetSetting<Bloom>().active = b;
+    }
+
+    public void VignetteSetActive(bool b)
+    {
+        postProcessVolume.profile.GetSetting<Vignette>().active = b;
+    }
+
+    public void MotionBlurSetActive(bool b)
+    {
+        postProcessVolume.profile.GetSetting<MotionBlur>().active = b;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }
