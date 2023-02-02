@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour
     public GameObject settingsMenu;
     public GameObject pauseSettings;
     public GameObject pauseMenu;
+    public GameObject creditsMenu;
     //public GameObject loadingScreen;
 
     public PlayerMovement playerMovement;
@@ -29,11 +30,14 @@ public class MenuScript : MonoBehaviour
     private bool isPlaying = false;
     public bool isPauseMenuOpen = false;
     public bool isSettingsMenuOpen = false;
+    public bool isCreditsMenuOpen = false;
 
     public PostProcessLayer postProcessLayer;
     public PostProcessVolume postProcessVolume;
 
     private float audioSourceVolume;
+
+    public string outsidePyramidName = "OutsidePyramidScene";
 
     private static MenuScript Instance = null;
     public static MenuScript instance
@@ -51,8 +55,8 @@ public class MenuScript : MonoBehaviour
         ShowMenu();
         ActivateMusic();
         audioSourceVolume = audioSource.volume;
-        volumeSlider.value = audioSourceVolume;
-        pauseVolumeSlider.value = audioSourceVolume;
+        //volumeSlider.value = audioSourceVolume;
+        //pauseVolumeSlider.value = audioSourceVolume;
     }
 
     private void Update()
@@ -147,6 +151,7 @@ public class MenuScript : MonoBehaviour
     {
         HidePauseMenu();
         OpenSettingsMenu();
+        //pauseVolumeSlider.value = audioSourceVolume;
     }
 
     public void OnCloseSettingsFromPauseMenu()
@@ -245,7 +250,37 @@ public class MenuScript : MonoBehaviour
 
     public void GoToMenuFromSettings()
     {
-        SceneManager.instance.ReloadScene();
+        //SceneManager.instance.ReloadScene();
+        SceneManager.instance.ChangeScene(outsidePyramidName);
+    }
+
+    public void ShowCreditsMenu()
+    {
+        isCreditsMenuOpen = true;
+        creditsMenu.SetActive(true);
+    }
+
+    public void HideCreditsMenu()
+    {
+        isCreditsMenuOpen = false;
+        creditsMenu.SetActive(false);
+    }
+
+    public void GoToCreditsMenuFromTitleMenu()
+    {
+        HideMenu();
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.CreditsMenu;
+        Cursor.lockState = CursorLockMode.None;
+        playerMovement.enabled = false;
+        mouseLook.enabled = false;
+        ShowCreditsMenu();
+    }
+
+    public void GoToTitleMenuFromCreditsMenu()
+    {
+        HideCreditsMenu();
+        MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.TitleMenu;
+        ShowMenu();
     }
 
     public void PostProcessingSetActive(bool b)
