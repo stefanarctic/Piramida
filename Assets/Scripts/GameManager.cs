@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    [HideInInspector]
-    public GameObject player;
+    //[HideInInspector]
+    //public GameObject player;
 
     private static GameManager Instance = null;
     public static GameManager instance
@@ -21,7 +21,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        player = FindObjectOfType<PlayerMovement>().gameObject;
+        //player = FindObjectOfType<PlayerMovement>().gameObject;
+        //PlayerMovement pm = FindObjectOfType<PlayerMovement>();
+        //player = pm == null ? pm.gameObject : null;
     }
 
 }

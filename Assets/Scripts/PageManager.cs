@@ -11,7 +11,7 @@ public class PageManager : MonoBehaviour
     public GameObject currentPage;
     public GameObject[] pages;
 
-    public int pageNumber;
+    public int pageNumber = 0;
 
     public void Init()
     {
