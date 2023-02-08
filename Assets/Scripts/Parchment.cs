@@ -19,7 +19,7 @@ public class Parchment : MonoBehaviour
     {
         parchmentScript.CheckParchment(this);
         //MenuScript.instance.HidePauseMenu();
-        if(!parchmentScript.holdingParchment && !(MenuScript.instance.isPauseMenuOpen))
+        if(!parchmentScript.holdingParchment)
             parchmentScript.ShowCrosshair();
     }
 

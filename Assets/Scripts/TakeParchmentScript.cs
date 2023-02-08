@@ -72,10 +72,12 @@ public class TakeParchmentScript : MonoBehaviour
         currentParchment = parchment;
         //Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward));
         if(!holdingParchment
-            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, parchment.gameObject.transform.position) < maxDistance && !(MenuScript.instance.isPauseMenuOpen))
+            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, parchment.gameObject.transform.position) < maxDistance)
         {
+            MenuScript.instance.ShowPauseMenu();
             holdingParchment = true;
-            TakeParchment();
+            //TakeParchment();
+            PageManager.instance.Init();
             HideCrosshair();
         }
     }

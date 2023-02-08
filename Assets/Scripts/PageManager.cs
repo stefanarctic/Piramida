@@ -5,6 +5,18 @@ using UnityEngine;
 public class PageManager : MonoBehaviour
 {
 
+    private static PageManager Instance = null;
+    public static PageManager instance
+    {
+        get
+        {
+            if (Instance == null)
+                Instance = FindObjectOfType<PageManager>();
+            return Instance;
+        }
+    }
+
+
     public Animator locationTextAnimator;
     public MenuScript menuScript;
     public GameObject storyMenu;
@@ -22,10 +34,28 @@ public class PageManager : MonoBehaviour
         currentPage.SetActive(true);
     }
 
+    public bool CheckSceneIfInterior()
+    {
+        return UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 1;
+    }
+
     public void NextPage()
     {
+        if (pageNumber >= pages.Length && CheckSceneIfInterior())
+            return;
         currentPage.SetActive(false);
         currentPage = pages[++pageNumber - 1];
+        currentPage.SetActive(true);
+
+    }
+
+    public void PreviousPage()
+    {
+
+        if (pageNumber <= 1 && CheckSceneIfInterior())
+            return;
+        currentPage.SetActive(false);
+        currentPage = pages[--pageNumber - 1];
         currentPage.SetActive(true);
     }
 
@@ -52,6 +82,8 @@ public class PageManager : MonoBehaviour
         //go to pyramid
         storyMenu.SetActive(false);
         menuScript.OnPlay();
+        MenuScript.instance.ShowPauseMenu();
+        MenuScript.instance.HidePauseMenu();
         locationTextAnimator.SetTrigger("TriggerFadeIn");
     }
 

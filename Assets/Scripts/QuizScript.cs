@@ -13,6 +13,8 @@ public class QuizScript : MonoBehaviour
     private List<int> answers;
     public List<int> correctAnswers;
 
+    public Animator checkOptionAnimator;
+
     private void Start()
     {
         answers = new List<int>();
@@ -47,8 +49,9 @@ public class QuizScript : MonoBehaviour
     {
         if(currentAnswer == 0)
         {
-            print("Bifati o optiune!");
+            //print("Bifati o optiune!");
             // afiseaza un text pe ecran sa bifati o optiune
+            checkOptionAnimator.SetTrigger("TriggerFadeIn");
             //pageManager.Init();
         }
         else

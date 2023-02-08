@@ -39,6 +39,8 @@ public class MenuScript : MonoBehaviour
 
     public string outsidePyramidName = "OutsidePyramidScene";
 
+    private TakeParchmentScript takeParchmentScript;
+
     private static MenuScript Instance = null;
     public static MenuScript instance
     {
@@ -52,6 +54,7 @@ public class MenuScript : MonoBehaviour
 
     private void Start()
     {
+        takeParchmentScript = TakeParchmentScript.instance;
         ShowMenu();
         ActivateMusic();
         audioSourceVolume = audioSource.volume;
@@ -63,7 +66,7 @@ public class MenuScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen) && !(TakeParchmentScript.instance.holdingParchment))
+        if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen))
         {
             if (isPauseMenuOpen)
                 HidePauseMenu();
@@ -108,7 +111,8 @@ public class MenuScript : MonoBehaviour
         playerMovement.enabled = false;
         mouseLook.enabled = false;
         pauseMenu.SetActive(true);
-        TakeParchmentScript.instance.HideCrosshair();
+        //if(takeParchmentScript != null)
+        //    TakeParchmentScript.instance.HideCrosshair();
     }
 
     public void HidePauseMenu()
