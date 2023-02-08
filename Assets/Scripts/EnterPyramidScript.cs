@@ -13,9 +13,14 @@ public class EnterPyramidScript : MonoBehaviour
         if(collision.collider.gameObject.CompareTag("Door"))
         {
             // transition into the main scene
-            Debug.Log("Transitioned into the main scene");
-            //SceneManager.instance.ChangeScene(mainSceneName);
-            SceneManager.instance.NextScene();
+            TransitionIntoNextScene();
         }
+    }
+
+    public void TransitionIntoNextScene()
+    {
+        Debug.Log("Transitioned into the main scene");
+        //SceneManager.instance.ChangeScene(mainSceneName);
+        SceneManager.instance.NextScene();
     }
 }

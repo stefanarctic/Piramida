@@ -6,10 +6,21 @@ using UnityEngine.UI;
 public class TakeParchmentScript : MonoBehaviour
 {
 
+    private static TakeParchmentScript Instance = null;
+    public static TakeParchmentScript instance
+    {
+        get
+        {
+            if (Instance == null)
+                Instance = FindObjectOfType<TakeParchmentScript>();
+            return Instance;
+        }
+    }
+
     public float maxDistance = 1f;
     public int brightnessIncrease = 10;
 
-    public Image uiParchment;
+    public GameObject uiParchment;
 
     public GameObject crosshair;
 
@@ -18,7 +29,8 @@ public class TakeParchmentScript : MonoBehaviour
 
     private Parchment currentParchment = null;
 
-    private bool holdingParchment = false;
+    [HideInInspector]
+    public bool holdingParchment = false;
 
     private void Awake()
     {
@@ -60,10 +72,11 @@ public class TakeParchmentScript : MonoBehaviour
         currentParchment = parchment;
         //Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward));
         if(!holdingParchment
-            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, parchment.gameObject.transform.position) < maxDistance)
+            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, parchment.gameObject.transform.position) < maxDistance && !(MenuScript.instance.isPauseMenuOpen))
         {
             holdingParchment = true;
             TakeParchment();
+            HideCrosshair();
         }
     }
 
@@ -72,8 +85,8 @@ public class TakeParchmentScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
         //Parchment parchment = parchment.gameObject.GetComponent<Parchment>();
-        uiParchment.gameObject.SetActive(true);
-        uiParchment.sprite = currentParchment.canvasSprite;
+        uiParchment.SetActive(true);
+        //uiParchment.sprite = currentParchment.canvasSprite;
     }
 
     private void DropParchment()
@@ -81,9 +94,28 @@ public class TakeParchmentScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1f;
         holdingParchment = false;
-        uiParchment.gameObject.SetActive(false);
+        uiParchment.SetActive(false);
         currentParchment = null;
+        //StartCoroutine(WaitForPauseMenu());
+        ////if (MenuScript.instance.isPauseMenuOpen)
+        ////{
+        ////    MenuScript.instance.HidePauseMenu();
+        ////    print("Hide pause menu");
+        ////}
+        //MenuScript.instance.HidePauseMenu();
+        //print(MenuScript.instance.isPauseMenuOpen);
+        //print("Hide pause menu");
     }
+
+    //IEnumerator WaitForPauseMenu()
+    //{
+    //    print("In Coroutine");
+    //    yield return new WaitForSeconds(5);
+    //    print("After Coroutine");
+
+    //    MenuScript.instance.HidePauseMenu();
+
+    //}
 
     //private void OnMouseOverParchment(RaycastHit hit)
     //{

@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: eb9c901d62dd6194597d5f1a0dea3105
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxJewelMat
+    second: {fileID: 2100000, guid: a7662a4cc5e6a574e990d13c0fc41e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxLidMat
+    second: {fileID: 2100000, guid: 503044e8d81977f4fa8f6cb45ff19c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxMetalMat
+    second: {fileID: 2100000, guid: e705ff295d71ef04899d13892d598599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CoinMat
+    second: {fileID: 2100000, guid: 9ee81f25acabcec4ebd6a398000b7669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CrookMat
+    second: {fileID: 2100000, guid: 915bc595ff79dda4eb11ea6b629c4557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreasureMeshMat
+    second: {fileID: 2100000, guid: 78f576c2c978c064da36ec46924b2a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrunkFeet
+    second: {fileID: 2100000, guid: afe6aa20fe44d304a8ebc6d27d4d6d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrunkLegMat
+    second: {fileID: 2100000, guid: c5fe7ec36c9687e4f8200c81765c65a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrunkLipMat
+    second: {fileID: 2100000, guid: d389aec5292d2734a96c5a53ba8c6e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrunkMainMat
+    second: {fileID: 2100000, guid: e858a0582b9f7a741b76aad5517599cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tutankamonus
+    second: {fileID: 2100000, guid: a7001840139852a4caefa4d24c0ccf91, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxJewelMat_BaseColor
+    second: {fileID: 2800000, guid: af34a507f53b254449e0bbff5bce9ef4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxJewelMat_Emissive
+    second: {fileID: 2800000, guid: c0068814835526941af459c4d9cd2e7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxJewelMat_Metallic
+    second: {fileID: 2800000, guid: b6fcaa32e82c2ec4d9d7bd8f60903d55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxJewelMat_Normal
+    second: {fileID: 2800000, guid: 247c2f45af09e5c44ae19c0fec169782, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxJewelMat_Roughness
+    second: {fileID: 2800000, guid: fd82f19c38444294aa5a8f5d16df3f16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxLidMat_BaseColor
+    second: {fileID: 2800000, guid: fafbcf81a2c3d86418eb90bc02618e86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxLidMat_Emissive
+    second: {fileID: 2800000, guid: feda39473a98e7a478b01ff2b6a1d9de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxLidMat_Metallic
+    second: {fileID: 2800000, guid: e9b0c76d213440841969db063aa918bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxLidMat_Normal
+    second: {fileID: 2800000, guid: 13ab52b68b805954a950b63401d32f64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxLidMat_Roughness
+    second: {fileID: 2800000, guid: 1692cc720eb2ac4489005f0b4185db25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxMetalMat_BaseColor
+    second: {fileID: 2800000, guid: 34696dda8357a66488b3c11564160a1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxMetalMat_Emissive
+    second: {fileID: 2800000, guid: 08a060c9e497bfd4ea918c397208cc89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxMetalMat_Normal
+    second: {fileID: 2800000, guid: 56e76fd899dde9640ba34055e67c8522, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_BoxMetalMat_Roughness
+    second: {fileID: 2800000, guid: 2c97b66827fa1f54fa2f413b3c0c8cbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CoinMat_BaseColor
+    second: {fileID: 2800000, guid: 34e2df89dab28f248b8318a2ac282d6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CoinMat_Emissive
+    second: {fileID: 2800000, guid: 3ad1dd7c0c8d8c44aa321a8b04f7d988, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CoinMat_Metallic
+    second: {fileID: 2800000, guid: f35bbe9aebcc6454db819e65481d3058, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CoinMat_Normal
+    second: {fileID: 2800000, guid: 15a437a290eef194b8dce2aebc1aba76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CoinMat_Roughness
+    second: {fileID: 2800000, guid: 11e1ac6a9ee99aa4bb7bcacfd9769f90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CrookMat_BaseColor
+    second: {fileID: 2800000, guid: 57dccbccc03186e4aaa91dd3bbbfda86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CrookMat_Emissive
+    second: {fileID: 2800000, guid: 351279448345b55409777ebd83ba8bd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CrookMat_Metallic
+    second: {fileID: 2800000, guid: 08c7867fa71f6db42a14dd608b3405dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_CrookMat_Roughness
+    second: {fileID: 2800000, guid: 8916d3a1c96309443beaf8560177a72c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TreasureMeshMat_BaseColor
+    second: {fileID: 2800000, guid: 7406045deac92744e8036587ed6d7816, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TreasureMeshMat_Emissive
+    second: {fileID: 2800000, guid: 431cc9b50d67a524aae833b54981787f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TreasureMeshMat_Metallic
+    second: {fileID: 2800000, guid: 9857162f16bc55140b0164f872a0bb85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TreasureMeshMat_Roughness
+    second: {fileID: 2800000, guid: ce3963d814f55c94d903fc9b49a1d440, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkFeet_BaseColor
+    second: {fileID: 2800000, guid: fba99dfcba8e38a4b8de340907bd3719, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkFeet_Emissive
+    second: {fileID: 2800000, guid: aad752a74afea394bbb28445ad8c94f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkFeet_Metallic
+    second: {fileID: 2800000, guid: 35dba027767c4334699b85c74deab56c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkFeet_Roughness
+    second: {fileID: 2800000, guid: 9b0a5a1965b36c84f998861e585b5e93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLegMat_BaseColor
+    second: {fileID: 2800000, guid: 6cbe37d5aca21c449bd3f9f5e4a5fe36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLegMat_Emissive
+    second: {fileID: 2800000, guid: 4921ea717175b8d4492f730e3713d623, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLegMat_Metallic
+    second: {fileID: 2800000, guid: 6456903e31be2e9489dcfd451227a7b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLegMat_Roughness
+    second: {fileID: 2800000, guid: d0c7ec969310270478e7f5e3d7ff45c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLipMat_BaseColor
+    second: {fileID: 2800000, guid: edda4ee4e89943f42b5efb8e5daee1ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLipMat_Emissive
+    second: {fileID: 2800000, guid: 5404c4d6896479d4f97a3ef6e945f12a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLipMat_Metallic
+    second: {fileID: 2800000, guid: 6d0a53b7638844143a95e67697e5ef5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkLipMat_Roughness
+    second: {fileID: 2800000, guid: 872c4041c7309074c86f93720ff2ccaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkMainMat_BaseColor
+    second: {fileID: 2800000, guid: 1cd29c8edeaea4a4e9fddc5addeb9325, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkMainMat_Emissive
+    second: {fileID: 2800000, guid: 2b94b5db697335846a0a350255918aa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkMainMat_Metallic
+    second: {fileID: 2800000, guid: c20352e1052c7f748a1d656cbbb96117, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Treasure_TrunkMainMat_Roughness
+    second: {fileID: 2800000, guid: f70185cd2ee792d469080f3030ad4646, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tutankamonus_diffuse
+    second: {fileID: 2800000, guid: d7ebbaa4969e3c843b3bc639e186b6e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tutankamonus_metallic
+    second: {fileID: 2800000, guid: ddcd464c5b6961b418cb281ade039dce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tutankamonus_normal
+    second: {fileID: 2800000, guid: 2e49f5b80bc42eb4b836c1b061e2ef2e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 1
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 10
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

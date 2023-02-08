@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InsideScene.unity
     guid: 6d16c9105d61fbb4998ba031cd8ba6fe
-  - enabled: 0
-    path: Assets/Scenes/InsidePyramidScene.unity
-    guid: e9476150f29b94640a5ca2bba0438730
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: 5ecf1b31ee5378b45b6631753c074ac9
   m_configObjects: {}

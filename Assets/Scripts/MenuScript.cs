@@ -55,13 +55,15 @@ public class MenuScript : MonoBehaviour
         ShowMenu();
         ActivateMusic();
         audioSourceVolume = audioSource.volume;
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 1)
+            OnPlay();
         //volumeSlider.value = audioSourceVolume;
         //pauseVolumeSlider.value = audioSourceVolume;
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen))
+        if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen) && !(TakeParchmentScript.instance.holdingParchment))
         {
             if (isPauseMenuOpen)
                 HidePauseMenu();
@@ -99,17 +101,20 @@ public class MenuScript : MonoBehaviour
     public void ShowPauseMenu()
     {
         //PauseMusic();
+        Time.timeScale = 0f;
         isPauseMenuOpen = true;
         MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.PauseMenu;
         Cursor.lockState = CursorLockMode.None;
         playerMovement.enabled = false;
         mouseLook.enabled = false;
         pauseMenu.SetActive(true);
+        TakeParchmentScript.instance.HideCrosshair();
     }
 
     public void HidePauseMenu()
     {
         //PlayMusic();
+        Time.timeScale = 1f;
         isPauseMenuOpen = false;
         MenuNavigator.instance.currentMenu = MenuNavigator.MenuType.None;
         Cursor.lockState = CursorLockMode.Locked;

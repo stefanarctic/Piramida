@@ -5,6 +5,7 @@ using UnityEngine;
 public class PageManager : MonoBehaviour
 {
 
+    public Animator locationTextAnimator;
     public MenuScript menuScript;
     public GameObject storyMenu;
     public GameObject background;
@@ -51,6 +52,7 @@ public class PageManager : MonoBehaviour
         //go to pyramid
         storyMenu.SetActive(false);
         menuScript.OnPlay();
+        locationTextAnimator.SetTrigger("TriggerFadeIn");
     }
 
 }

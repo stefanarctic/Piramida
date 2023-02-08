@@ -18,7 +18,9 @@ public class Parchment : MonoBehaviour
     private void OnMouseOver()
     {
         parchmentScript.CheckParchment(this);
-        parchmentScript.ShowCrosshair();
+        MenuScript.instance.HidePauseMenu();
+        if(!parchmentScript.holdingParchment && !(MenuScript.instance.isPauseMenuOpen))
+            parchmentScript.ShowCrosshair();
     }
 
     private void OnMouseExit()
