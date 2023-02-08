@@ -3,7 +3,52 @@ guid: 92d2dc979029d494fb2204631b807959
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 841d53f8130ca0e46841cb45e6d7c2c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1
+    second: {fileID: 2100000, guid: 897656e09f2900e46812cff61fee754e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1_0
+    second: {fileID: 2100000, guid: 6f48aa817db26cf469245146096d136d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1_2
+    second: {fileID: 2100000, guid: b85b57af5537a244b8140bf53763f255, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_2
+    second: {fileID: 2100000, guid: d164442b142d30e4782452e2a93f537b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tut_chair_back_modified
+    second: {fileID: 2100000, guid: ee84cb0dc280a554fa975eaadd9e66c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tut_chair_inside_arm
+    second: {fileID: 2100000, guid: e544ad8427612f342b9db1d9ef3e8166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tut_chair_side
+    second: {fileID: 2100000, guid: 641f11821bcf18847a63c31c8bd02637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tut_lion
+    second: {fileID: 2100000, guid: 5885dbbb53bbf674bb32dd747df90744, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
