@@ -11,7 +11,7 @@ public class InsideSceneManager : MonoBehaviour
 
     private FunctionTimer timer;
 
-    private void Start()
+    public void OnEnterTomb()
     {
         fadingTextAnimator.SetTrigger(triggerParameterName);
         //fadingTextAnimator.f
