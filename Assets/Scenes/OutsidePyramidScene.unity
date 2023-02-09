@@ -336,8 +336,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Celebritatea faraonului este datorat\u0103 faptului c\u0103 piramida lui
-    a fost g\u0103sit\u0103 intact\u0103. \xCEn 1922, piramida lui Tutankamon a fost
-    descoperit\u0103 de arheologul britanic Haward Carter. A fost cea mai prodigioas\u0103
+    a fost g\u0103sit\u0103 intact\u0103. \xCEn 1922, mormantul lui Tutankamon a
+    fost descoperit de arheologul britanic Haward Carter. A fost cea mai prodigioas\u0103
     descoperire a secolului XX."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -1183,7 +1183,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh679498
+  m_Name: pb_Mesh637840
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4548,7 +4548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58, y: 114}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259651048
@@ -4635,7 +4635,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -223.6003, w: -234.93668}
+  m_margin: {x: -136.4662, y: -24.693642, z: -217.52702, w: -52.539474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -15336,7 +15336,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh678694
+  m_Name: pb_Mesh637026
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15633,8 +15633,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Scriitorul englez Arthur Conan Doyle i-a sporit celebritatea vorbind despre
-    blestemul faraonului. 27 de oameni care au intrat \xEEn contact cu sarcofagul
-    faraonului au murit \xEEn condi\u021Bii misterioase."
+    blestemul faraonului. La 7 ani de la deschiderea sarcofagului, 22 de oameni care
+    au intrat \xEEn contact cu sarcofagul faraonului au murit \xEEn condi\u021Bii
+    misterioase."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -15697,7 +15698,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -109.40399, w: -122.951096}
+  m_margin: {x: 0, y: 0, z: -123.99539, w: -122.951096}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -17087,7 +17088,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 259651047}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17942,7 +17943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &862360782
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18034,12 +18035,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 975942463}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151.80595, y: -41.8}
-  m_SizeDelta: {x: 86.0262, y: 25.228}
+  m_AnchoredPosition: {x: 69.97923, y: -41.8}
+  m_SizeDelta: {x: 73.1847, y: 25.228}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870822998
 MonoBehaviour:
@@ -21101,8 +21102,8 @@ RectTransform:
   m_Children:
   - {fileID: 814066258}
   - {fileID: 683369907}
-  - {fileID: 1827142311}
   - {fileID: 870822997}
+  - {fileID: 1827142311}
   - {fileID: 1816889470}
   - {fileID: 1215595329}
   - {fileID: 1505059154}
@@ -21966,7 +21967,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1215595329}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23968,7 +23969,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 259651047}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29419,11 +29420,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Civiliza\u021Bia egiptean\u0103 dureaz\u0103 circa 3200 de ani. Conform
-    p\u0103rintelui istoriei, Herodot, <i>\"Egiptul este un dar al Nilului\"</i>.
-    Ritmul Nilului era ritmul vie\u021Bii egiptene.\r\nEgiptul Antic este un stat
-    specific despotismului oriental*. Conduc\u0103torul \u021B\u0103rii se numea
-    faraon* \u0219i era considerat divin."
+  m_text: Egiptul Antic a fost o civilizatie care s-a dezvoltat de-a lungul Nilului,
+    formata in jurul anilor 3150 i. Hr. pe suprafata actuala a Egiptului. Parintele
+    istoriei, Herodot, chiar spunea ca <i>"Egiptul este un dar al Nilului"</i>. Conducatorul
+    se numea faraon, iar forma de organizare era specifica despotismului oriental.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -30522,7 +30522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1269184839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30764,7 +30764,7 @@ RectTransform:
   m_GameObject: {fileID: 1285790213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.325, y: 0.325, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 919076710}
@@ -30772,8 +30772,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -229.4, y: 85.7}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchoredPosition: {x: -220, y: 30}
+  m_SizeDelta: {x: 1017, y: 636.0977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285790215
 MonoBehaviour:
@@ -33196,7 +33196,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1215595329}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -44913,12 +44913,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 975942463}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 78.76126, y: -12.614}
-  m_SizeDelta: {x: 257.5225, y: 25.228}
+  m_AnchoredPosition: {x: 215.14304, y: -70.7}
+  m_SizeDelta: {x: 245.8085, y: 25.228}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1827142312
 MonoBehaviour:
@@ -49714,7 +49714,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh677972
+  m_Name: pb_Mesh636284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
