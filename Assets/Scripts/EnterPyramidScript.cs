@@ -21,6 +21,7 @@ public class EnterPyramidScript : MonoBehaviour
     {
         Debug.Log("Transitioned into the main scene");
         //SceneManager.instance.ChangeScene(mainSceneName);
-        SceneManager.instance.NextScene();
+        //SceneManager.instance.NextScene();
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
