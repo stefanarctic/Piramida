@@ -61,7 +61,7 @@ public class TakeParchmentScript : MonoBehaviour
 
     private void Update()
     {
-        if (holdingParchment && (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1)))
+        if (holdingParchment && (Input.GetKeyDown(KeyCode.Escape)))
         {
             DropParchment();
         }
