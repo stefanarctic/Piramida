@@ -20,6 +20,7 @@ public class MenuScript : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip ambienceAudioClip;
     public AudioClip musicAudioClip;
+    public AudioClip interiorAudioClip;
 
     public Transform position1;
     public Transform position2;
@@ -55,8 +56,14 @@ public class MenuScript : MonoBehaviour
     private void Start()
     {
         takeParchmentScript = TakeParchmentScript.instance;
-        ShowMenu();
-        ActivateMusic();
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            ShowMenu();
+            ActivateMusic();
+        } else
+        {
+            ActivateInteriorMusic();
+        }
         audioSourceVolume = audioSource.volume;
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 1)
             OnPlay();
@@ -131,7 +138,10 @@ public class MenuScript : MonoBehaviour
     {
         isPlaying = true;
         HideMenu();
-        ActivateAmbience();
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex != 1)
+            ActivateAmbience();
+        else
+            ActivateInteriorMusic();
         //GameObject playerGameObject = FindObjectOfType<PlayerMovement>().gameObject;
         //playerTransform.position = position1.position;
         //playerGameObject.transform.position = position2.position;
@@ -182,6 +192,15 @@ public class MenuScript : MonoBehaviour
         audioSource.Stop();
         audioSource.clip = ambienceAudioClip;
         audioSource.volume = 0.1f;
+        audioSource.Play();
+    }
+
+    public void ActivateInteriorMusic()
+    {
+        //print("Activated interior music");
+        audioSource.Stop();
+        audioSource.clip = interiorAudioClip;
+        audioSource.volume = 0.3f;
         audioSource.Play();
     }
 
