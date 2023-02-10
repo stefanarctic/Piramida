@@ -19,8 +19,8 @@ public class EnterPyramidScript2 : MonoBehaviour
         if(collision.gameObject.CompareTag(playerTag))
         {
             print($"Collision with {collision.gameObject.name}");
-            Destroy(col);
-            //UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
+            //Destroy(col);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
