@@ -108,6 +108,11 @@ public class MenuScript : MonoBehaviour
         audioSource.volume = newValue;
     }
 
+    public void OnSensitivityValueChanged(float newValue)
+    {
+        mouseLook.mouseSensitivity = newValue;
+    }
+
     public void ShowPauseMenu()
     {
         //PauseMusic();

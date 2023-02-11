@@ -14,9 +14,9 @@ public class MouseLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 #if UNITY_EDITOR
-        mouseSensitivity = 1000f;
+        mouseSensitivity = 500f;
 #else
-        mouseSensitivity = 100f;
+        mouseSensitivity = 50f;
 #endif
     }
 
