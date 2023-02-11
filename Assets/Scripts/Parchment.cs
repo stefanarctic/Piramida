@@ -8,12 +8,12 @@ public class Parchment : MonoBehaviour
 
     public Sprite canvasSprite;
 
-    private TakeParchmentScript parchmentScript;
+    public TakeParchmentScript parchmentScript;
 
-    private void Awake()
-    {
-        parchmentScript = FindObjectOfType<TakeParchmentScript>();
-    }
+    //private void Awake()
+    //{
+    //    parchmentScript = FindObjectOfType<TakeParchmentScript>();
+    //}
 
     private void OnMouseOver()
     {
