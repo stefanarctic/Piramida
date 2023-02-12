@@ -17079,7 +17079,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1003358553}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17593,7 +17593,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6376957}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -31927,7 +31927,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1047380235}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -32094,7 +32094,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 889296276}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34513,7 +34513,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 889296276}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -43723,7 +43723,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1003358553}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -44693,8 +44693,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274672996}
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: -0.7071066}
-  m_LocalPosition: {x: -166.62598, y: 61.526897, z: 59.15648}
-  m_LocalScale: {x: 1, y: 11.89812, z: 4.2825747}
+  m_LocalPosition: {x: -166.62598, y: 58.901897, z: 59.15648}
+  m_LocalScale: {x: 1, y: 6.6486692, z: 4.2825747}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1444744031}
@@ -62527,13 +62527,13 @@ MonoBehaviour:
     la \u0219ase s\u0103pt\u0103m\xE2ni de la deschiderea morm\xE2ntului, 12 persoane
     din expedi\u021Bie au murit subit, pove\u0219tile despre blestemul lui Tutankhamon
     au \xEEnceput s\u0103 se r\u0103sp\xE2ndeasc\u0103. La dou\u0103 luni dup\u0103
-    deschiderea morm\xE2ntului lui Tutankhamon, a murit \u0219i Lordul Carnarvon,
-    cel care a finan\u021Bat s\u0103p\u0103turile lui Carter. P\xE2n\u0103 \xEEn
-    1930, 7 ani mai tarziu 22 de persoane care au asistat la deschiderea morm\xE2ntului
+    deschiderea morm\xE2ntului lui Tutankhamon, a murit \u0219i Lordul Carnarvon.
+    In acel moment, toate luminile din oras s-au stins . P\xE2n\u0103 \xEEn 1930,
+    7 ani mai tarziu 22 de persoane care au asistat la deschiderea morm\xE2ntului
     au murit, r\u0103sp\xE2ndind \u0219i mai mult povestea blestemului lui Tutankhamon,
     \xEEns\u0103 exper\u021Bii au spus c\u0103 cele dou\u0103 informa\u021Bii nu
     au leg\u0103tur\u0103 \xEEntre ele, deoarece Carter, descoperitorul mormantului,
-    a murit din cauze naturale la varsta de 64 de ani."
+    a murit din cauze naturale in 1939."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -62596,7 +62596,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -930.1613, w: -386.19247}
+  m_margin: {x: 0, y: 0, z: -949.4262, w: -456.24692}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -69620,7 +69620,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1047380235}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -70394,7 +70394,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6376957}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

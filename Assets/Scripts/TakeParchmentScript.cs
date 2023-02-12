@@ -27,7 +27,7 @@ public class TakeParchmentScript : MonoBehaviour
     private GameObject borderObject;
     private GameObject canvasObject;
 
-    private Parchment currentParchment = null;
+    public Parchment currentParchment = null;
 
     [HideInInspector]
     public bool holdingParchment = false;
@@ -72,7 +72,7 @@ public class TakeParchmentScript : MonoBehaviour
         currentParchment = parchment;
         //Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward));
         if(!holdingParchment
-            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, parchment.gameObject.transform.position) < maxDistance)
+            && Input.GetMouseButtonDown(0) && Vector3.Distance(transform.position, currentParchment.gameObject.transform.position) < maxDistance)
         {
             MenuScript.instance.ShowPauseMenu();
             holdingParchment = true;

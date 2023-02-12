@@ -10,6 +10,8 @@ public class Parchment : MonoBehaviour
 
     public TakeParchmentScript parchmentScript;
 
+    public GameObject[] pages;
+
     //private void Awake()
     //{
     //    parchmentScript = FindObjectOfType<TakeParchmentScript>();
@@ -17,6 +19,10 @@ public class Parchment : MonoBehaviour
 
     private void OnMouseOver()
     {
+        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            PageManager.instance.pages = pages;
+        }
         parchmentScript.CheckParchment(this);
         //MenuScript.instance.HidePauseMenu();
         if(!parchmentScript.holdingParchment)

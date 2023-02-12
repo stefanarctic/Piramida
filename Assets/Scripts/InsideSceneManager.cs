@@ -5,9 +5,22 @@ using UnityEngine;
 public class InsideSceneManager : MonoBehaviour
 {
 
+    private static InsideSceneManager Instance = null;
+    public static InsideSceneManager instance
+    {
+        get
+        {
+            if (Instance == null)
+                Instance = FindObjectOfType<InsideSceneManager>();
+            return Instance;
+        }
+    }
+
     public Animator fadingTextAnimator;
     public string triggerParameterName = "TriggerFadeIn";
     public GameObject canvas2;
+
+    public GameObject[] roomPages;
 
     private FunctionTimer timer;
 

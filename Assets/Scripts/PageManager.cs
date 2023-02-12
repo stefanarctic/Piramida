@@ -29,6 +29,10 @@ public class PageManager : MonoBehaviour
     public void Init()
     {
         storyMenu.SetActive(true);
+        foreach(GameObject page in pages)
+        {
+            page.SetActive(false);
+        }
         pageNumber = 1;
         currentPage = pages[0];
         currentPage.SetActive(true);
