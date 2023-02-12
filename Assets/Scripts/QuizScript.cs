@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuizScript : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class QuizScript : MonoBehaviour
 
     private List<int> answers;
     public List<int> correctAnswers;
+
+    public TextMeshProUGUI scoreText;
+    public GameObject scorePage;
 
     public Animator checkOptionAnimator;
 
@@ -61,6 +65,9 @@ public class QuizScript : MonoBehaviour
             {
                 // afiseaza punctajul
                 print("Se afiseaza punctajul");
+                pageManager.currentPage.SetActive(false);
+                scorePage.SetActive(true);
+                CalculateScore();
             }
             else
             {
@@ -85,5 +92,21 @@ public class QuizScript : MonoBehaviour
             //        }
             //}
         }
+    }
+
+    public void CalculateScore()
+    {
+        int score = 0;
+        for(int i = 0; i < answers.Count; i++)
+        {
+            if (answers[i] == correctAnswers[i])
+                score += 10;
+        }
+        scoreText.text = $"Scorul tau este {score}";
+    }
+
+    public void GoToMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 }

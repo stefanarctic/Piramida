@@ -55,6 +55,7 @@ public class MenuScript : MonoBehaviour
 
     private void Start()
     {
+        audioSource.loop = true;
         takeParchmentScript = TakeParchmentScript.instance;
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex != 1)
         {
