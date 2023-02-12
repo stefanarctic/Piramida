@@ -17,6 +17,12 @@ public class TakeParchmentScript : MonoBehaviour
         }
     }
 
+    public enum ParchmentType
+    {
+        TreasureParchment,
+        RoomParchment
+    }
+
     public float maxDistance = 1f;
     public int brightnessIncrease = 10;
 

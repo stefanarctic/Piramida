@@ -20,9 +20,32 @@ public class InsideSceneManager : MonoBehaviour
     public string triggerParameterName = "TriggerFadeIn";
     public GameObject canvas2;
 
-    public GameObject[] roomPages;
+    public GameObject treasureMenu;
+    public GameObject roomsMenu;
+    public GameObject[] treasureParchmentPages;
+    public GameObject[] roomsParchmentPages;
 
     private FunctionTimer timer;
+
+    public void CheckPages(Parchment parchment)
+    {
+        if(parchment.parchmentType == TakeParchmentScript.ParchmentType.TreasureParchment)
+        {
+            PageManager.instance.pages = treasureParchmentPages;
+            PageManager.instance.storyMenu = treasureMenu;
+            TakeParchmentScript.instance.uiParchment = treasureMenu;
+        }
+        else if(parchment.parchmentType == TakeParchmentScript.ParchmentType.RoomParchment)
+        {
+            PageManager.instance.pages = roomsParchmentPages;
+            PageManager.instance.storyMenu = roomsMenu;
+            TakeParchmentScript.instance.uiParchment = roomsMenu;
+        }
+        else
+        {
+            print("Unknown parchment option");
+        }
+    }
 
     public void Start()
     {
