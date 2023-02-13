@@ -5857,7 +5857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &156429895
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11313,7 +11313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Iesire
+  m_text: "Ie\u0219ire"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14342,14 +14342,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Faraon este termenul folosit adesea de autorii moderni pentru regii Egiptului
-    antic care au condus ca monarhidin prima dinastia (c. 3150 \xEE.Hr.) p\xE2n\u0103
-    la anexarea Egiptului de c\u0103tre Imperiul Roman \xEEn 30 \xEE.Hr. \xCEn societatea
-    egiptean\u0103, religia era esen\u021Bial\u0103 \xEEn via\u021Ba de zi cu zi.
-    Unul dintre rolurile regelui era cel de intermediar \xEEntre zeit\u0103\u021Bi
-    \u0219i popor. Regele de\u021Binea toat\u0103 \u021Bara din Egipt, a promulgat
-    legi, a colectat taxe \u0219i a ap\u0103rat Egiptul de invadatori \xEEn calitate
-    de comandant-\u0219ef al armatei. Din punct de vedere religios, regele a oficiat
-    ceremoniile religioase \u0219i a ales locurile pentru noi temple. "
+    antic care au condus ca monarhi din prima dinastie (c. 3150 \xEE.Hr.) p\xE2n\u0103
+    la anexarea Egiptului de c\u0103tre Imperiul Roman \xEEn 30 \xEE.Hr. Unul dintre
+    rolurile acestuia era cel de intermediar \xEEntre zeit\u0103\u021Bi \u0219i popor.
+    El de\u021Binea toat\u0103 \u021Bara din Egipt, promulgea legi, colecta taxe
+    \u0219i a ap\u0103ra Egiptul de invadatori \xEEn calitate de comandant-\u0219ef
+    al armatei. Faraonul oficia ceremoniile religioase \u0219i alegea locurile pentru
+    noi temple. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -33447,7 +33446,7 @@ GameObject:
   - component: {fileID: 863744852}
   - component: {fileID: 863744851}
   m_Layer: 5
-  m_Name: Text
+  m_Name: InfoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33493,8 +33492,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Proiect realizat de \u0218tefan Marian Drosu\n\nColegiul National 'Alexandru
-    Lahovari\"\n\nProfesori coordonatori dr. Sorin Oane, Emil Paduretu"
+  m_text: "Proiect realizat de \u0218tefan Marian Drosu\n\nColegiul Na\u021Bional
+    \"Alexandru Lahovari\"\n\nProfesori coordonatori dr. Sorin Oane, Emil P\u0103duretu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -35254,9 +35253,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Celebritatea faraonului este datorat\u0103 faptului c\u0103 mormantul
-    sau a fost g\u0103sit intact (1922). Arheologul a fost britanicul Howard Carter.
-    A fost cea mai prodigioas\u0103 arheologic\u0103 descoperire a secolului XX."
+  m_text: "Celebritatea faraonului este datorat\u0103 faptului c\u0103 morm\xE2ntul
+    s\u0103u a fost g\u0103sit intact (1922). Arheologul a fost britanicul Howard
+    Carter. A fost cea mai prodigioas\u0103 arheologic\u0103 descoperire a secolului
+    XX."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -38641,7 +38641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setari
+  m_text: "Set\u0103ri"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49341,8 +49341,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c3a5faa52a67df4499113331d439e821, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -54002,7 +54002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setari
+  m_text: "Set\u0103ri"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -66988,7 +66988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Descopera
+  m_text: "Descoper\u0103"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -68173,17 +68173,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Howard Carter a fost un arheolog \u0219i egiptolog britanic care a trait
-    intre   9 mai 1874 \u0219i 2 martie 1939. \xCEn 1907, a \xEEnceput s\u0103 lucreze
-    pentru Lordul Carnarvon , care l-a angajat s\u0103 supravegheze excavarea mormintelor
-    nobililor din Deir el-Bahri, l\xE2ng\u0103 Teba. \xCEn 1914, Lordul Carnarvon
-    a primit concesiunea de a s\u0103pa \xEEn Valea Regilor. Carter a condus lucrarea,
-    \xEEntreprinz\xE2nd o c\u0103utare sistematic\u0103 a oric\u0103ror morminte
-    ratate de expedi\u021Biile anterioare.  La 4 noiembrie 1922, t\xE2n\u0103rul
+  m_text: "Howard Carter a fost un arheolog \u0219i egiptolog britanic care a tr\u0103it
+    \xEEntre   9 mai 1874 \u0219i 2 martie 1939. \xCEn 1907, a \xEEnceput s\u0103
+    lucreze pentru Lordul Carnarvon , care l-a angajat s\u0103 supravegheze excavarea
+    mormintelor nobililor din Deir el-Bahri, l\xE2ng\u0103 Teba. \xCEn 1914, Lordul
+    Carnarvon a primit concesiunea de a s\u0103pa \xEEn Valea Regilor. Carter a condus
+    lucrarea, \xEEntreprinz\xE2nd o c\u0103utare sistematic\u0103 a oric\u0103ror
+    morminte ratate de expedi\u021Biile anterioare.  La 4 noiembrie 1922, t\xE2n\u0103rul
     lor b\u0103iat de ap\u0103 s-a \xEEmpiedicat accidental de o piatr\u0103 care
     s-a dovedit a fi v\xE2rful unei trepte t\u0103iate \xEEn roca de baz\u0103. S-a
-    dovedit ca acea scara apartinea mormantului lui Tutankamon care era singurul
-    mormant intact din Valea Regilor."
+    dovedit c\u0103 acea scar\u0103 apar\u021Binea morm\xE2ntului lui Tutankamon
+    care era singurul morm\xE2nt intact din Valea Regilor."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -74737,7 +74737,7 @@ MonoBehaviour:
     7 ani mai tarziu 22 de persoane care au asistat la deschiderea morm\xE2ntului
     au murit, r\u0103sp\xE2ndind \u0219i mai mult povestea blestemului lui Tutankhamon,
     \xEEns\u0103 exper\u021Bii au spus c\u0103 cele dou\u0103 informa\u021Bii nu
-    au leg\u0103tur\u0103 \xEEntre ele, deoarece Carter, descoperitorul mormantului,
+    au leg\u0103tur\u0103 \xEEntre ele, deoarece Carter, descoperitorul morm\xE2ntului,
     a murit din cauze naturale in 1939."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -76552,11 +76552,11 @@ MonoBehaviour:
     \xEE.Hr, urc\xE2nd pe tron la 9 ani. El este fiul faraonului Amenhotep IV (Akhenaton)
     \u0219i al reginei Kiya, mama vitrega a acestuia fiind celebra Nefertiti. Fac\xE2nd
     parte din Noul Regat, dinastia a 18-a, numit\u0103 \u0219i Epoca de aur a faraonilor.
-    El a abandonat cultul monoteist al tatalui sau si a revenit la zeii traditionali,
-    schimbandu-si numele din Tutankaton, \u201Eimagine vie a lui Aton\", \xEEn Tutankamon,
-    \u201Eimagine vie a lui Amon\", marele zeu al Egiptului, adorat \xEEn temple
-    de la Karnak p\xE2n\u0103 la Teba, capitala religioas\u0103. Acesta a domnit
-    10 ani, urmand sa moara la 19 ani din mai multe cauze posibile."
+    El a abandonat cultul monoteist al tat\u0103lui s\u0103u a revenit la zeii tradi\u021Bionali,
+    schimb\xE2ndu-\u0219i numele din Tutankaton, \u201Eimagine vie a lui Aton\",
+    \xEEn Tutankamon, \u201Eimagine vie a lui Amon\", marele zeu al Egiptului, adorat
+    \xEEn temple de la Karnak p\xE2n\u0103 la Teba, capitala religioas\u0103. Acesta
+    a domnit 10 ani, urm\xE2nd s\u0103 moar\u0103 la 19 ani din mai multe cauze posibile."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -85079,7 +85079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2024061939
 RectTransform:
   m_ObjectHideFlags: 0
