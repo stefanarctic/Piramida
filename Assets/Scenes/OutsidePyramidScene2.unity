@@ -11522,7 +11522,7 @@ RectTransform:
   m_Father: {fileID: 1707882272}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.56977475}
+  m_AnchorMin: {x: 0, y: 0.78153217}
   m_AnchorMax: {x: 1, y: 0.99999994}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -22310,7 +22310,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6376957}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29486,8 +29486,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 322980831}
   m_HandleRect: {fileID: 322980830}
   m_Direction: 2
-  m_Value: 0.9999999
-  m_Size: 0.4302252
+  m_Value: 0.99999994
+  m_Size: 0.21846773
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -32328,7 +32328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ai intrat in
+  m_text: "Ai intrat \xEEn"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -33403,7 +33403,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Proiect realizat de \u0218tefan Marian Drosu\n\nColegiul Na\u021Bional
-    \"Alexandru Lahovari\"\n\nProfesori coordonatori dr. Sorin Oane, Emil P\u0103duretu"
+    \"Alexandru Lahovari\"\n\nProfesori coordonatori dr. Sorin Oane,\nEmil P\u0103dure\u021Bu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -34453,7 +34453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setari
+  m_text: "Set\u0103ri"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38826,7 +38826,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 889296276}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -41748,7 +41748,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 889296276}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -44784,6 +44784,162 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140449866}
+  m_CullTransparentMesh: 1
+--- !u!1 &1140638993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140638994}
+  - component: {fileID: 1140638996}
+  - component: {fileID: 1140638995}
+  m_Layer: 5
+  m_Name: CreditsText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1140638994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140638993}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1791675753}
+  - {fileID: 1300828446}
+  m_Father: {fileID: 1348117851}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.095703125, y: -349.71463}
+  m_SizeDelta: {x: -222.71814, y: 491.37427}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1140638995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140638993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "- Aurel Barnea (coordonator), Istorie. Manual pentru clasa a IX-a, Editura
+    Corint, Bucure\u0219ti, 2004\r\n- Emil Condurachi, Curs de istoria Orientului
+    antic, Universitatea Bucure\u0219ti, 1980\r\n- Daniel, Cultura spiritual\u0103
+    a Egiptului antic, Editura Cartea Rom\xE2neasc\u0103, Bucure\u0219ti, 1985\r\n-
+    Ovidiu Drimba, Istoria culturii \u0219i civiliza\u021Biei, vol. I, Editura \u0218tiin\u021Bific\u0103
+    \u0219i Enciclopedic\u0103, Bucure\u0219ti, 1984\r\n- Alexandru Bogdan Stan,
+    10 lucruri incredibile despre faraonul Tutankhamon, \xEEn \u201EHistoria.ro\u201D,
+    online\r\n- Alexandra \u0218erban, Morm\xE2ntul lui Tutankamon, plin de lucruri
+    minunate. M\u0103rturiile celui care a descoperit comoara din Valea Regilor,
+    \xEEn Historia,ro, online\r\n- Wikipedia, Tomb of Tutankhamun, online\r\n- \"The
+    Discovery of the Tomb of Tutankhamun\" de Nicholas Reeves\r\n- \"Tutankhamun:
+    The Treasures of the Golden Pharaoh\" de Zahi Hawass\r\n- \"Tutankhamun: The
+    Life and Death of a Pharaoh\" de Christine El Mahdy\r\n- \"Tutankhamun: The Life
+    and Death of the Boy-King\" de Christine El Mahdy\r\n- Situl web oficial al Muzeului
+    Egiptean din Cairo, Egipt, online\r\n- \"The Curse of King Tut's Tomb\" de Zahi
+    Hawass\r\n- \"Tutankhamun: Anatomy of an Excavation\" de Zahi Hawass\r\n   -
+    \"The Treasures of Tutankhamun\" de T.G.H. James\r\n   - \"Egyptian Mythology:
+    A Guide to the Gods, Goddesses, and Traditions of Ancient Egypt\" de Geraldine
+    Pinch\r\n- Wikipedia, Masca lui Tutankhamon, online\r\n- historia.ro, Egiptul
+    Antic \u0219i secretele mumific\u0103rii, online\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
+  m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18.05
+  m_fontSizeBase: 18.05
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 55
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -0.715271, w: -0.5784607}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1140638996
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140638993}
   m_CullTransparentMesh: 1
 --- !u!64 &1141405445
 MeshCollider:
@@ -54563,6 +54719,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298266283}
   m_CullTransparentMesh: 1
+--- !u!1 &1300828445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300828446}
+  - component: {fileID: 1300828448}
+  - component: {fileID: 1300828447}
+  m_Layer: 5
+  m_Name: VocabularFaraon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1300828446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300828445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1140638994}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1300828447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300828445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Faraon = conducatorul antic al Egiptului. Termenul se traduce prin "casa
+    mare". Echivalent termenului modern de rege.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1300828448
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300828445}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1302745158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55705,8 +55997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -124.12448}
-  m_SizeDelta: {x: 0, y: 248.249}
+  m_AnchoredPosition: {x: 0, y: -335.28162}
+  m_SizeDelta: {x: 0, y: 670.5633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1341669437
 MonoBehaviour:
@@ -55728,16 +56020,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aurel Barnea (coordonator), Istorie. Manual pentru clasa a IX-a, Editura
-    Corint, Bucure\u0219ti, 2004\r\nEmil Condurachi, Curs de istoria Orientului antic,
-    Universitatea Bucure\u0219ti, 1980\r\nDaniel, Cultura spiritual\u0103 a Egiptului
-    antic, Editura Cartea Rom\xE2neasc\u0103, Bucure\u0219ti, 1985\r\nOvidiu Drimba,
-    Istoria culturii \u0219i civiliza\u021Biei, vol. I, Editura \u0218tiin\u021Bific\u0103
-    \u0219i Enciclopedic\u0103, Bucure\u0219ti, 1984\r\nAlexandru Bogdan Stan, 10
-    lucruri incredibile despre faraonul Tutankhamon, \xEEn \u201EHistoria.ro\u201D,
-    online\r\nAlexandra \u0218erban, Morm\xE2ntul lui Tutankamon, plin de lucruri
+  m_text: "- Aurel Barnea (coordonator), Istorie. Manual pentru clasa a IX-a, Editura
+    Corint, Bucure\u0219ti, 2004\r\n- Emil Condurachi, Curs de istoria Orientului
+    antic, Universitatea Bucure\u0219ti, 1980\r\n- Daniel, Cultura spiritual\u0103
+    a Egiptului antic, Editura Cartea Rom\xE2neasc\u0103, Bucure\u0219ti, 1985\r\n-
+    Ovidiu Drimba, Istoria culturii \u0219i civiliza\u021Biei, vol. I, Editura \u0218tiin\u021Bific\u0103
+    \u0219i Enciclopedic\u0103, Bucure\u0219ti, 1984\r\n- Alexandru Bogdan Stan,
+    10 lucruri incredibile despre faraonul Tutankhamon, \xEEn \u201EHistoria.ro\u201D,
+    online\r\n- Alexandra \u0218erban, Morm\xE2ntul lui Tutankamon, plin de lucruri
     minunate. M\u0103rturiile celui care a descoperit comoara din Valea Regilor,
-    \xEEn Historia,ro, online\r\nWikipedia, Tomb of Tutankhamun, online\r\n"
+    \xEEn Historia,ro, online\r\n- Wikipedia, Tomb of Tutankhamun, online\r\n- \"The
+    Discovery of the Tomb of Tutankhamun\" de Nicholas Reeves\r\n- \"Tutankhamun:
+    The Treasures of the Golden Pharaoh\" de Zahi Hawass\r\n- \"Tutankhamun: The
+    Life and Death of a Pharaoh\" de Christine El Mahdy\r\n- \"Tutankhamun: The Life
+    and Death of the Boy-King\" de Christine El Mahdy\r\n- Situl web oficial al Muzeului
+    Egiptean din Cairo, Egipt, online\r\n- \"The Curse of King Tut's Tomb\" de Zahi
+    Hawass\r\n- \"Tutankhamun: Anatomy of an Excavation\" de Zahi Hawass\r\n   -
+    \"The Treasures of Tutankhamun\" de T.G.H. James\r\n   - \"Egyptian Mythology:
+    A Guide to the Gods, Goddesses, and Traditions of Ancient Egypt\" de Geraldine
+    Pinch\r\n- Wikipedia, Masca lui Tutankhamon, online\r\n- historia.ro, Egiptul
+    Antic \u0219i secretele mumific\u0103rii, online\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -55800,7 +56102,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.715271, w: -0.23410031}
+  m_margin: {x: 0, y: 0, z: -0.715271, w: 1.8654481}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -56089,6 +56391,7 @@ RectTransform:
   - {fileID: 1991054841}
   - {fileID: 1381232605}
   - {fileID: 1374384057}
+  - {fileID: 1140638994}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -56794,7 +57097,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setari
+  m_text: "Set\u0103ri"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -74821,7 +75124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continua
+  m_text: "Continu\u0103"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -76301,13 +76604,13 @@ Transform:
   - {fileID: 630937207}
   - {fileID: 2079881255}
   - {fileID: 669413246}
+  - {fileID: 1808444521}
   - {fileID: 672465159}
   - {fileID: 513279156}
   - {fileID: 860742135}
   - {fileID: 818411391}
   - {fileID: 957474140}
   - {fileID: 551658296}
-  - {fileID: 1808444521}
   - {fileID: 755351962}
   - {fileID: 1615667790}
   - {fileID: 578253788}
@@ -76380,16 +76683,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tutankhamon (n. 1341 \xEE.Hr. - d. 1323 \xEE.Hr.) a fost un faraon din
+  m_text: "Tutankamon (n. 1341 \xEE.Hr. - d. 1323 \xEE.Hr.) a fost un faraon din
     dinastia a 18-a, conduc\u0103torul Egiptului \xEEntre anii 1332 \xEE.Hr. - 1323
     \xEE.Hr, urc\xE2nd pe tron la 9 ani. El este fiul faraonului Amenhotep IV (Akhenaton)
-    \u0219i al reginei Kiya, mama vitrega a acestuia fiind celebra Nefertiti. Fac\xE2nd
-    parte din Noul Regat, dinastia a 18-a, numit\u0103 \u0219i Epoca de aur a faraonilor.
-    El a abandonat cultul monoteist al tat\u0103lui s\u0103u a revenit la zeii tradi\u021Bionali,
-    schimb\xE2ndu-\u0219i numele din Tutankaton, \u201Eimagine vie a lui Aton\",
-    \xEEn Tutankamon, \u201Eimagine vie a lui Amon\", marele zeu al Egiptului, adorat
-    \xEEn temple de la Karnak p\xE2n\u0103 la Teba, capitala religioas\u0103. Acesta
-    a domnit 10 ani, urm\xE2nd s\u0103 moar\u0103 la 19 ani din mai multe cauze posibile."
+    \u0219i al reginei Kiya, mama vitreg\u0103 a acestuia fiind celebra Nefertiti.
+    El a abandonat cultul monoteist al tat\u0103lui s\u0103u \u0219i a revenit la
+    zeii tradi\u021Bionali, schimb\xE2ndu-\u0219i numele din Tutankaton, \u201Eimagine
+    vie a lui Aton\", \xEEn Tutankamon, \u201Eimagine vie a lui Amon\", marele zeu
+    al Egiptului, adorat \xEEn temple de la Karnak p\xE2n\u0103 la Teba, capitala
+    religioas\u0103. Acesta a domnit 10 ani, urm\xE2nd s\u0103 moar\u0103 la 19 ani
+    din mai multe cauze posibile."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
   m_sharedMaterial: {fileID: 7634391659376212278, guid: 4bb705b0870dcf64295db1cf7c2208fe, type: 2}
@@ -76452,7 +76755,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -930.1613, w: -386.19247}
+  m_margin: {x: 0, y: 0, z: -955.2259, w: -386.19247}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -76983,6 +77286,142 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785076472}
+  m_CullTransparentMesh: 1
+--- !u!1 &1791675752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791675753}
+  - component: {fileID: 1791675755}
+  - component: {fileID: 1791675754}
+  m_Layer: 5
+  m_Name: VocabularDespotismulOriental
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1791675753
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791675752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1140638994}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791675754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791675752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Despotismul oriental este guvernarea unui singur om care domneste ca stapan
+    absolut
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1791675755
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791675752}
   m_CullTransparentMesh: 1
 --- !u!1 &1792734986
 GameObject:
@@ -77545,7 +77984,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1766375200}
-  m_RootOrder: 118
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 158.118, y: 0, z: 0}
 --- !u!108 &1808444523
 Light:
@@ -84086,7 +84525,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6376957}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
