@@ -21,6 +21,7 @@ public class EnterPyramidScript2 : MonoBehaviour
             print($"Collision with {collision.gameObject.name}");
             //Destroy(col); 
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
+            MenuScript.instance.ShowMenu();
         }
     }
 }
