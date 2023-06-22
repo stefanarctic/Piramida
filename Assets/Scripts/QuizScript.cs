@@ -102,7 +102,7 @@ public class QuizScript : MonoBehaviour
             if (answers[i] == correctAnswers[i])
                 score += 10;
         }
-        scoreText.text = $"Scorul tau este {score}";
+        scoreText.text = $"Scorul t?u este {score}";
     }
 
     public void GoToMenu()
