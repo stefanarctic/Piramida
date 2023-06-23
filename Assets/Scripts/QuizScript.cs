@@ -11,11 +11,18 @@ public class QuizScript : MonoBehaviour
 
     public int currentAnswer = 0;
 
-    private List<int> answers;
+    public int score;
+
+    [HideInInspector]
+    public List<int> answers;
     public List<int> correctAnswers;
 
     public TextMeshProUGUI scoreText;
     public GameObject scorePage;
+
+    public Scrollbar quizAnswersScrollbar;
+
+    public QuizResultsScript quizResultsScript;
 
     public Animator checkOptionAnimator;
 
@@ -68,6 +75,10 @@ public class QuizScript : MonoBehaviour
                 pageManager.currentPage.SetActive(false);
                 scorePage.SetActive(true);
                 CalculateScore();
+
+                quizAnswersScrollbar.value = 0.9999f;
+                print("Changed value of scrollbar");
+                quizResultsScript.ShowResults(this);
             }
             else
             {
@@ -96,13 +107,14 @@ public class QuizScript : MonoBehaviour
 
     public void CalculateScore()
     {
-        int score = 0;
+        int score_temp = 0;
         for(int i = 0; i < answers.Count; i++)
         {
             if (answers[i] == correctAnswers[i])
-                score += 10;
+                score_temp += 10;
         }
-        scoreText.text = $"Scorul t?u este {score}";
+        score = score_temp;
+        scoreText.text = score.ToString();
     }
 
     public void GoToMenu()
