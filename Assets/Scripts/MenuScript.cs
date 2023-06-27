@@ -74,6 +74,9 @@ public class MenuScript : MonoBehaviour
 
     private void Update()
     {
+
+        print($"Volume: {audioSource.volume}, Slider: {volumeSlider.value}");
+
         if(Input.GetKeyDown(KeyCode.Escape) && isPlaying && !(isSettingsMenuOpen))
         {
             if (isPauseMenuOpen)
@@ -190,6 +193,10 @@ public class MenuScript : MonoBehaviour
         audioSource.Stop();
         audioSource.clip = musicAudioClip;
         audioSource.volume = 0.3f;
+
+        print(audioSource.volume);
+        volumeSlider.value = audioSource.volume;
+
         audioSource.Play();
     }
 

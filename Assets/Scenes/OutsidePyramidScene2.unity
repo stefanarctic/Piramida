@@ -55794,6 +55794,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1718350470668658, guid: 713687872d4212f4bbae44a025c046eb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1818695301454800, guid: 713687872d4212f4bbae44a025c046eb, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -85345,7 +85349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2024061939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -85880,8 +85884,8 @@ MonoBehaviour:
   interiorAudioClip: {fileID: 0}
   position1: {fileID: 1465159804}
   position2: {fileID: 967672545}
-  volumeSlider: {fileID: 1171120539}
-  pauseVolumeSlider: {fileID: 1129515783}
+  volumeSlider: {fileID: 1413226500}
+  pauseVolumeSlider: {fileID: 1738105713}
   isPauseMenuOpen: 0
   isSettingsMenuOpen: 0
   isCreditsMenuOpen: 0
