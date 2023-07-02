@@ -28,6 +28,9 @@ public class MenuScript : MonoBehaviour
     public Slider volumeSlider;
     public Slider pauseVolumeSlider;
 
+    public Slider pauseSensitivitySlider;
+    public Slider settingsSensitivitySlider;
+
     private bool isPlaying = false;
     public bool isPauseMenuOpen = false;
     public bool isSettingsMenuOpen = false;
@@ -127,6 +130,7 @@ public class MenuScript : MonoBehaviour
         playerMovement.enabled = false;
         mouseLook.enabled = false;
         pauseMenu.SetActive(true);
+        pauseSensitivitySlider.value = mouseLook.mouseSensitivity;
         //if(takeParchmentScript != null)
         //    TakeParchmentScript.instance.HideCrosshair();
     }
@@ -243,6 +247,7 @@ public class MenuScript : MonoBehaviour
         playerMovement.enabled = false;
         mouseLook.enabled = false;
         settingsMenu.SetActive(true);
+        settingsSensitivitySlider.value = mouseLook.mouseSensitivity;
     }
 
     public void HideSettingsMenu()
